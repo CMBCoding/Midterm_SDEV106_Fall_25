@@ -1,0 +1,139 @@
+/*
+
+CSS rules you may need:
+- font-family
+    - Arial, sans-serif
+- line-height
+- color
+- margin
+- padding
+- background-color
+- border-radius
+- border-left
+- border-bottom
+- margin-top
+- padding-left
+- padding-bottom
+- width
+- height
+- margin-bottom
+- font-size
+
+Pseudo classes you may need:
+- :hover
+- :first-letter
+- :nth-child
+
+*/
+
+/* Write your CSS code here */
+
+/*  Completed 10/22/2025
+    Author: Corey Brown.
+
+    
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+:root {
+    --azure-blue: #3498db;
+    --aqua: #E6FFFF;
+    --light-gray: #f9f9f9;
+    --whisper-gray: #e7f6f8;
+    --volanic-ash: #808080;
+    --dark-gray: #555555;
+    --concrete: #e7e7e7c2;
+}
+
+h1 {
+    font-size: 2rem;
+    padding: .5rem;
+}
+
+header {
+    background-color: var(--azure-blue);
+    color: white;
+    border-radius: 5px;
+    margin-right: 3.125rem;
+    margin-left: 3.125rem;
+}
+
+body {
+    background-color: var(--aqua);
+    margin: 0 auto;
+}
+
+main {
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    margin-right: 3.125rem;
+    margin-left: 3.125rem;
+}
+
+section {
+    background-color: var(--light-gray);
+    padding: 10px 15px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #3c3b3b;
+    font-size: 1.5rem;
+    padding: 2px 0px 10px 8px;
+    border-left: var(--azure-blue) solid 2px;
+    border-bottom: var(--azure-blue) solid 2px;;
+}
+section p::first-letter {
+    font-weight: 600;
+    color: var(--azure-blue);
+    font-size: 2.5rem;
+}
+
+img {
+    border-radius: 5px;
+    height: 180px;
+    margin-bottom: 20px;
+}
+
+table {
+    margin: 20px 0;
+}
+
+tr {
+    background-color: var(--congrete);
+    border-bottom: solid 1px var(--volanic-ash);
+}
+table tbody tr:nth-child(even):hover, 
+table tbody tr:nth-child(odd):hover {
+    background-color: #e7f6f8;
+}
+
+
+td, th {
+    padding: 8px 10px 8px;
+}
+
+td {
+    color: var(--dark-gray);
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: var(--light-gray);
+}
+
+table tbody tr:nth-child(even) {
+    background-color: var(--concrete);
+}
+
+table tbody tr:first-child, table tbody tr:first-child:hover {
+    background-color: var(--azure-blue);
+    color: #FFFFFF;
+    border-bottom: none;
+}
+

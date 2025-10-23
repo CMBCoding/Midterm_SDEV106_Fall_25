@@ -31,7 +31,7 @@ Pseudo classes you may need:
 /*  Completed 10/22/2025
     Author: Corey Brown.
 
-    
+
 */
 
 * {
@@ -58,6 +58,7 @@ header {
     background-color: var(--azure-blue);
     color: white;
     border-radius: 5px;
+    text-align: center;
     margin-right: 3.125rem;
     margin-left: 3.125rem;
 }
@@ -98,6 +99,7 @@ section p::first-letter {
 img {
     border-radius: 5px;
     height: 180px;
+    width: 477px;
     margin-bottom: 20px;
 }
 
